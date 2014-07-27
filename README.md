@@ -30,12 +30,12 @@ by this plugin extends the Handlebar object by a new member Templates.
 
 ##Usage:
 If you have a handlebars template at
-app/assets/handlebars/filter/standard.html
-This template will be available as a javascript object Handlebars.Templates.Filter.Standard
+**app/assets/handlebars/filter/standard.html**
+This template will be available as a javascript object **Handlebars.Templates.Filter.Standard**
 
 ##Example:
 In order to render a file:
-app/assets/handlebars/filter/standard.html
+**app/assets/handlebars/filter/standard.html**
 having the variable hint, description and items, you write the following javascript
 code on the client side.
 
