@@ -1,7 +1,7 @@
 sbt-handlebars
 ==============
 
-This is an sbt-web plugin for using handlebar templates in Play in a very simple way
+This is an sbt-web plugin enabling client side html rendering using the handlebar libraray in Play >=2.3.x.
 
 ##How to install
 Add a resover in project/plugin.sbt
