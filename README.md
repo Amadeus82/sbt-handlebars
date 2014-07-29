@@ -4,10 +4,18 @@ sbt-handlebars
 This is an sbt-web plugin for using handlebar templates in Play in a very simple way
 
 ##How to install
+Add a resover in project/plugin.sbt
+```scala
+resolvers ++= Seq(
+  Resolver.url("Dataflow repository", url("https://amadeus82.github.io/repo"))(Resolver.ivyStylePatterns)
+)
+```
+
 Add a plugin dependency in project/plugin.sbt
 ```scala
 addSbtPlugin("com.dataflow.sbt" % "sbt-handlebars" % "1.0.0")
 ```
+
 Add a library dependency in build.sbt for the external handlebars web-jar
 ```scala
 libraryDependencies ++= Seq(
