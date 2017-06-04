@@ -3,7 +3,7 @@ sbt-handlebars
 
 This is an sbt-web plugin enabling client side html rendering using the handlebar libraray in Play >=2.3.x.
 
-##How to install
+## How to install
 Add a resover in project/plugin.sbt
 ```scala
 resolvers ++= Seq(
@@ -36,12 +36,12 @@ Reference two javascript files in your view where ever needed (i.e. main.scala.h
 Please be aware that the order of those two lines matter as the javascript file (templates.js) generated
 by this plugin extends the Handlebar object by a new member Templates.
 
-##Usage:
+## Usage:
 If you have a handlebars template at
 **app/assets/handlebars/filter/standard.html**
 This template will be available as a javascript object **Handlebars.Templates.Filter.Standard**
 
-##Example:
+## Example:
 In order to render a file:
 **app/assets/handlebars/filter/standard.html**
 having the variable hint, description and items, you write the following javascript
